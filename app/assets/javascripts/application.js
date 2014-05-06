@@ -18,8 +18,6 @@
 //= require backbone
 //= require simple_personal_website
 //= require_tree ../templates
-//= require_tree ./models
-//= require_tree ./collections
 //= require_tree ./views
 //= require_tree ./routers
 //= require_tree .
