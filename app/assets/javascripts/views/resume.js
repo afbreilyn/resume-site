@@ -1,9 +1,9 @@
-SimplePersonalWebsite.Views.Homepage = Backbone.View.extend({
+SimplePersonalWebsite.Views.Resumepage = Backbone.View.extend({
 
-	template: JST["homepage"],
+	template: JST["resume"],
 
 	events: {
-		"click .home" : "render"
+		"click .resume" : "render"
 	},
 
 	render: function() {

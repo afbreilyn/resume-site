@@ -3,8 +3,7 @@ SimplePersonalWebsite.Views.Biopage = Backbone.View.extend({
 	template: JST["bio"],
 
 	event: {
-		"click #bio" : "render",
-		console.log("bioness")
+		"click .bio" : "render"
 	},
 
 	render: function() {

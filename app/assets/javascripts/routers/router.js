@@ -6,7 +6,8 @@ SimplePersonalWebsite.Routers.StaticRouter = Backbone.Router.extend({
 	routes: {
 		"" : "homepage",
 		"bio" : "bio",
-		"projects" : "projects"
+		"projects" : "projects",
+		"resume" : "resume"
 	},
 
 	homepage: function () {
@@ -19,6 +20,15 @@ SimplePersonalWebsite.Routers.StaticRouter = Backbone.Router.extend({
 		this._swapView(bioView);
 	},
 	
+	projects: function () {
+		var projectView = new SimplePersonalWebsite.Views.Projectspage();
+		this._swapView(projectView);
+	},
+
+	resume: function () {
+		var resumeView = new SimplePersonalWebsite.Views.Resumepage();
+		this._swapView(resumeView);
+	},
 
 	_swapView: function (view) {
 		this._currentView && this._currentView.remove();

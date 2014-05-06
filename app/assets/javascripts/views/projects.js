@@ -1,10 +1,9 @@
-SimplePersonalWebsite.Views.Project = Backbone.View.extend({
+SimplePersonalWebsite.Views.Projectspage = Backbone.View.extend({
 
 	template: JST["projects"],
 
 	events: {
-		"click #projects" : "render",
-		console.log("project render")
+		"click .projects" : "render"
 	},
 
 	render: function() {
