@@ -16,6 +16,9 @@
 //= require turbolinks
 //= require underscore
 //= require backbone
+//= require snake
+//= require board
+//= require snake_interaction
 //= require simple_personal_website
 //= require_tree ../templates
 //= require_tree ./views
