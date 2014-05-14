@@ -11,7 +11,7 @@
  *= require_self
  *= require_tree .
  */
-header, body, h1, a, ul, li {
+header, body, h1, a, ul, li, div, section {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -24,7 +24,7 @@ header, body, h1, a, ul, li {
 body {
 	font-family: "Andale Mono", AndaleMono, monospace;
 	margin: auto;
-	width: 900px;
+	width: 800px;
 	margin-top: 100px;
 }
 
@@ -35,6 +35,10 @@ ul {
 a {
 	text-decoration: none;
 	color: black;
+}
+
+a:hover {
+	color: #16e5f8;
 }
 
 
@@ -51,11 +55,91 @@ a {
 	background: #bbb;
 	padding: 20px;
 	margin-bottom: 100px;
+	min-height: 400px;
 }
 
 li {
+
+}
+
+/* --- NAV BAR --- */
+
+#nav {
+	/*float: right;*/
+}
+
+#nav > ul {
+	/*float: left;*/
+}
+
+#nav > ul > li {
+	/*display: inline-block;*/
+	font-weight: bold;
+	font-size: 22px;
 }
 
 
+/* --- HOME PAGE --- */
 
+.home {
+
+}
+
+.home > h1 {
+	font-weight: bold;
+	font-size: 24px;
+	margin-right: 25%;
+	float: right;
+}
+
+.home > p {
+	clear: left;
+}
+
+.home > div {
+	display: inline;
+	display: absolute;
+}
+
+.home > div > img {
+	position: relative;
+	margin-top: -120px;
+	float: right;
+	border: 1px solid black;
+	/*display: block;*/
+	/*border: 2px solid blue;*/
+}
+
+/* --- BIO PAGE --- */
+
+.bio {
+
+}
+
+.bio > ul {
+	margin-top: 20px;
+}
+
+.bio > ul > li {
+	margin: 10px 0;
+
+}
+
+/* --- PROJECTS PAGE --- */
+
+.projects {
+
+}
+
+.projects > h1 {
+
+}
+
+.projects > ul {
+
+}
+
+.projects > ul > li {
+
+}
 

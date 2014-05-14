@@ -4,11 +4,11 @@
   width: 20px;
   background: #eee;
 
-  /*border: solid gray 1px;*/
+  border: solid black 1px;
 }
 
 .snake {
-  background-color: pink;
+  background-color: #FA50B9;
 }
 
 .apple {
@@ -17,4 +17,9 @@
 
 .row {
   clear: both;
+}
+
+#grid {
+	margin: 50px 0;
+	margin-left: 21%;
 }
