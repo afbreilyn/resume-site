@@ -163,7 +163,6 @@ li {
 
 #second-row {
 	top: 800px;
-	margin: auto;
 }
 
 #ff-h2 {
@@ -181,4 +180,13 @@ li {
 #cs-h2 {
 	margin-left: 70px;
 	margin-top: 100px;
+}
+
+/*--- RESUME PAGE ---*/
+
+#resume-pdf {
+	position: relative;
+	left: 50px;
+	top: 35px;
+	margin-bottom: 100px;
 }
