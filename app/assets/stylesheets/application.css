@@ -128,7 +128,7 @@ li {
 /* --- PROJECTS PAGE --- */
 
 .projects {
-
+	height: 637px;
 }
 
 .projects > h1 {
@@ -136,10 +136,53 @@ li {
 }
 
 .projects > ul {
-
+	/*margin-top: 20px;*/
+	float: right;
 }
 
 .projects > ul > li {
+	/*position: absolute;*/
+	float: left;
+}
+
+.project-h2 {
+	font-weight: bold;
+	position: relative;
+	top: 15px;
+	/*font-size: 20px*/
 
 }
 
+.projects > ul > li > h2:hover {
+	color: color: #16e5f8;
+}
+
+.projects > ul > li > a > img {
+	height: 200px;
+	width: auto;
+	border: 1px solid black;
+	/*position: absolute;*/
+	margin:0 22px;
+}
+
+#second-row {
+	top: 800px
+	margin: auto;
+}
+
+#ff-h2 {
+	margin-left: 86px;
+}
+
+#sn-h2 {
+	margin-left: 120px;
+}
+
+#dfr-h2 {
+	margin-left: 52px;
+}
+
+#cs-h2 {
+	margin-left: 70px;
+	margin-top: 100px;
+}
