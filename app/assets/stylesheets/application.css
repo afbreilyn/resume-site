@@ -136,12 +136,10 @@ li {
 }
 
 .projects > ul {
-	/*margin-top: 20px;*/
 	float: right;
 }
 
 .projects > ul > li {
-	/*position: absolute;*/
 	float: left;
 }
 
@@ -149,12 +147,10 @@ li {
 	font-weight: bold;
 	position: relative;
 	top: 15px;
-	/*font-size: 20px*/
-
 }
 
 .projects > ul > li > h2:hover {
-	color: color: #16e5f8;
+	color: #16e5f8;
 }
 
 .projects > ul > li > a > img {
