@@ -90,9 +90,11 @@ li {
 	font-size: 24px;
 	margin-right: 25%;
 	float: right;
+	margin-top: 15px;
 }
 
 .home > p {
+	margin-top: 45px;
 	clear: left;
 }
 
