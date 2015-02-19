@@ -4,4 +4,8 @@ class RootController < ApplicationController
   	render "root"
   end
 
+  def home
+    render 'home'
+  end
+
 end
