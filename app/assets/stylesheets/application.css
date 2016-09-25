@@ -11,7 +11,7 @@
  *= require_self
  *= require_tree .
  */
-header, body, h1, h2, a, ul, li, div, section {
+header, body, h1, h2, a, li, div, section {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -22,7 +22,7 @@ header, body, h1, h2, a, ul, li, div, section {
 
 body {
 	font-family: "Andale Mono", AndaleMono, monospace;
-	width: 1000px;
+	width: 100%;
 	margin-top: 75px;
 }
 
@@ -216,8 +216,10 @@ h2 {
 }
 
 ul {
-	width: 500px;
-	margin-left: 380px;
+	width: 254px;
+	margin-right: auto;
+	margin-left: auto;
+	/*margin-left: 380px;*/
 }
 
 li {
@@ -234,7 +236,7 @@ li {
 
 #frog-gif {
 	width: 150px;
-	margin-left: 425px;
+	/*margin-left: 425px;*/
 	margin-bottom: 15px;
 }
 
